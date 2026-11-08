@@ -1,0 +1,88 @@
+(footprint "Roller_WirePads_C9_left"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "J1202"
+		(at 0 0 180)
+		(layer "B.SilkS")
+		(hide yes)
+		(uuid "44cc53fc-0354-4952-acfc-ed8865377281")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Value" "ROLLER GND A B / HAND SOLDER"
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "88e6ead4-adc5-450c-a56e-e6b986db257b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "e9f33668-0841-4378-adc9-8a573e2a9195")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "d1ce667b-5709-489e-a432-2fb35c45bcb2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(attr smd exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(pad "1" smd roundrect
+		(at -6.09 -5.08)
+		(size 2.55 2.5)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.1)
+		(uuid "e70720b9-177b-474b-b069-5802ee6a2d4b")
+	)
+	(pad "1" smd roundrect
+		(at 14.267447 -8.14624 12)
+		(size 2.55 2.5)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.1)
+		(uuid "8474ea5f-7a67-4773-8aab-3eb75200547b")
+	)
+	(pad "2" smd roundrect
+		(at 7.36 -2.54)
+		(size 2.55 2.5)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.1)
+		(uuid "8d12c302-33e8-4c5f-b853-74b9d1f4f1e3")
+	)
+	(pad "3" smd roundrect
+		(at 27.951628 -8.458157 12)
+		(size 2.55 2.5)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.1)
+		(uuid "06b6386c-7d67-4286-b7fe-4399751bb57f")
+	)
+	(embedded_fonts no)
+)

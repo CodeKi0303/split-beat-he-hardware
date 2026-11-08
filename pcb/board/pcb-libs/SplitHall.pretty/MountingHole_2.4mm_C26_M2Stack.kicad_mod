@@ -1,0 +1,86 @@
+(footprint "MountingHole_2.4mm_C26_M2Stack"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "R_C22_POST_FRONT"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a25fda47-6ec7-4661-9ab6-50e3bd40741f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "M2 stack NPTH2.4 / insulating spacer OD5.6"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00dd4654-1bf7-4852-bf24-2d8d1ee99895")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f27ad8d-3271-477f-a037-c9d38af6deb3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2bf6e3fc-04a1-4f46-baf1-2c9661f7742d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 3.85 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5fc4f7be-3976-4194-abe5-2756b8633cbd")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.2 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "488b62c0-274c-4c01-bb19-2878c65bcc72")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 2.4 2.4)
+		(drill 2.4)
+		(layers "*.Cu" "*.Mask")
+		(clearance 0.3)
+		(uuid "0e05c164-2e19-4754-97c2-703353285890")
+	)
+	(embedded_fonts no)
+)

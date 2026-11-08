@@ -1,0 +1,3 @@
+[submodule "modules/horizontal-wheel"]
+	path = modules/horizontal-wheel
+	url = https://github.com/CodeKi0303/split-beat-he-wheel.git

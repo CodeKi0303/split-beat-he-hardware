@@ -1,0 +1,1 @@
+(fp_lib_table (version 7) (lib (name "SplitHall")(type "KiCad")(uri "${KIPRJMOD}/../board/pcb-libs/SplitHall.pretty")(options "")(descr "C86 project footprints")))
