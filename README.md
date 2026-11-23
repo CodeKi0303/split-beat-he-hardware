@@ -15,7 +15,7 @@ codeki lab의 좌우 분리형 홀 이펙트 리듬게임 컨트롤러입니다.
 
 - [나사 체결 단면도](docs/fastener-assembly-sections.svg)의 A/B/C 위치를 기준으로 조립합니다. USB 개구부, 납땜 핀과 하판의 간격, 휠이 자유롭게 도는지 확인합니다.
 - 새 보드는 [펌웨어의 SWD 초기 설치](https://github.com/CodeKi0303/split-beat-he-firmware/blob/main/C86-FIRST-FLASH.md)를 진행합니다.
-- **PC → 왼쪽 PC용 USB-C**, **왼쪽 split 포트 → 오른쪽 split 포트** 순으로 연결합니다. 오른쪽 USB-C는 좌우 통신·전원용입니다. [Studio](https://studio.codekilab.com/)에서 캘리브레이션, 매핑, 작동점 및 Rapid Trigger를 설정합니다. [Studio 소스와 로컬 실행](https://github.com/CodeKi0303/split-beat-he-studio).
+- **PC → 왼쪽 뒤쪽 바깥(노브 쪽) USB-C**(J401), **왼쪽 안쪽 USB-C(J501) ↔ 오른쪽 안쪽 USB-C(J551)** 순으로 연결합니다. 좌우 연결에는 e-marker가 없는 60W 미만 USB-C ↔ USB-C 데이터 케이블을 씁니다. 오른쪽 USB-C는 좌우 통신·전원 전용이라 PC에 꽂아도 인식되지 않습니다. 포트 그림은 [사용 설명서](https://docs.codekilab.com/#start)에 있습니다. [Studio](https://studio.codekilab.com/)에서 캘리브레이션, 매핑, 작동점 및 Rapid Trigger를 설정합니다. [Studio 소스와 로컬 실행](https://github.com/CodeKi0303/split-beat-he-studio).
 
 ## 휠 가져오기
 
